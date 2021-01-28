@@ -1,0 +1,13 @@
+bizalmultiplefileupload.js  is a simple to use plugin.
+.Design for easy integeration
+.Design for easy customization
+.Design for improvement.
+
+Usage:
+
+-use this plugin within your html file 
+-insert the plugin at the head of your html file
+- check out html index.html  file for better configuration
+
+- input file className = newinput
+- uploaded img preview className = imgclass

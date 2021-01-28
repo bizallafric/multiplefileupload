@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<link rel="stylesheet" href="css.css'"> 
+<script  src='plugin.js'></script>  
+
+<meta property="og:url" content="">
+<meta property="og:type" content="Website" />
+<title></title>
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mulitple file upload plugin-->
+<script src="/bizalmultiplefileupload.js"></script>
+<style rel="stylesheet" href="/css.css"></style>
+</head>
+
+<body>
+ <div class="main-container">
+ <form id="myform"action="" method="">
+   <!--- display image preview -->
+   <div class="image-preiview-container">
+
+   </div>
+   <!-- when clicked , it creates a file upload input-->
+   <div class="images-upload-btn">
+     Click to add image
+   </div>
+</form>
+<script>
+  /* 
+  call plugin
+  */
+  callable('#myform','.images-upload-btn','.image-preiview-container')
+</script>
+
+</body>
+
+</div>
+</html>
